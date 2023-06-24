@@ -1,0 +1,95 @@
+.Catagories {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.CatagoriesCont {
+    width: 80%;
+    height: 250px;
+
+    border-radius: 10px;
+
+
+}
+
+.PriceCont {
+    height: 50px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.CatagoriesPriceCont {
+    width: 270px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+    top: 30px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+}
+
+.CatagoriesH3 {
+    font-size: 30px;
+}
+
+.PriceContText {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.PriceContP {
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+    position: relative;
+
+}
+
+.memory {
+    position: relative;
+    left: 10px;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+.CatagoriesCard {
+    width: 170px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.CatagoriesCheckBoxCont {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CatagoriesCheckBox {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

@@ -1,0 +1,34 @@
+.MacCatagories {
+    width: 20%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.MacCatagoriesCont {
+    width: 230px;
+    height: 320px;
+    margin: 10px;
+    position: relative;
+    top: 40px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Small {
+    height: 200px;
+
+}
+
+.MacPriceCont {
+    position: relative;
+    left: -14px;
+}
+
+.CatagoriesCardMac {
+    position: relative;
+    top: -20px;
+}
